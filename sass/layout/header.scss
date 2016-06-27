@@ -1,10 +1,11 @@
-nav{
+.nav-md{
     position: fixed;
     z-index: 2000;
     right: 0%;
+    border-left:1px solid black;
     ul {
         background: $main-blue;
-        padding: 50px 0px;
+        padding: 60px 0px;
         list-style-type: none;
         li{
             @include navbars($main-blue, 0%, 10px 30px, 1px solid black);
@@ -19,6 +20,36 @@ nav{
                     text-decoration: none;
                     font-weight: bold;
                 }
+            }
+        }
+    }
+}
+.nav-sm{
+    position: fixed;
+    right: 0%;
+    z-index: 10000;
+    border: 2px solid black;
+    .dropdown{
+            li{
+                background-color: $main-blue;
+                a{
+                    color: black;
+                    font-weight: bold;
+                    color: white;
+                    &:hover{
+                        color: black;
+                    }
+                }
+            }
+        button{
+            background-color: $main-blue;
+            color: white;
+            font-family: Oswald;
+            font-size: 30px;
+            &:focus{
+                color: white !important;
+                font-weight: bold;
+                background-color: lighten($main-blue, 15%) !important;
             }
         }
     }

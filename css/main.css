@@ -1,7 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Oswald);
+section .container .row h1 {
+  font-size: 55px; }
+section .container .row .bxslider h3 {
+  font-weight: bold;
+  text-align: center; }
 section .container .row .bxslider img {
   width: 100%;
   height: 400px; }
+
+.acerca {
+  padding: 5%; }
 
 body {
   background-color: #c4c4c4; }
@@ -21,31 +29,60 @@ img {
 h1 {
   font-family: Oswald; }
 
-nav {
+.nav-md {
   position: fixed;
   z-index: 2000;
-  right: 0%; }
-  nav ul {
+  right: 0%;
+  border-left: 1px solid black; }
+  .nav-md ul {
     background: #242DCB;
-    padding: 50px 0px;
+    padding: 60px 0px;
     list-style-type: none; }
-    nav ul li {
+    .nav-md ul li {
       background-color: #242DCB;
       margin: 0%;
       padding: 10px 30px;
       border: 1px solid black; }
-      nav ul li:hover {
+      .nav-md ul li:hover {
         font-weight: bold;
         background-color: #181f8a; }
-      nav ul li a {
+      .nav-md ul li a {
         font-family: Oswald;
         font-size: 17px;
         display: block;
         color: white;
         text-decoration: none; }
-        nav ul li a:hover {
+        .nav-md ul li a:hover {
           color: white;
           text-decoration: none;
           font-weight: bold; }
+
+.nav-sm {
+  position: fixed;
+  right: 0%;
+  z-index: 10000;
+  border: 2px solid black; }
+  .nav-sm .dropdown li {
+    background-color: #242DCB; }
+    .nav-sm .dropdown li a {
+      color: black;
+      font-weight: bold;
+      color: white; }
+      .nav-sm .dropdown li a:hover {
+        color: black; }
+  .nav-sm .dropdown button {
+    background-color: #242DCB;
+    color: white;
+    font-family: Oswald;
+    font-size: 30px; }
+    .nav-sm .dropdown button:focus {
+      color: white !important;
+      font-weight: bold;
+      background-color: #5a61e2 !important; }
+
+footer {
+  background-color: #242DCB;
+  color: white;
+  border-top: 1px solid black; }
 
 /*# sourceMappingURL=main.css.map */
