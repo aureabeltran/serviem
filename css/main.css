@@ -36,7 +36,7 @@ h1 {
   border-left: 1px solid black; }
   .nav-md ul {
     background: #0d47a1;
-    padding: 60px 0px;
+    padding: 100px 0px;
     list-style-type: none; }
     .nav-md ul li {
       background-color: #0d47a1;
@@ -75,7 +75,7 @@ h1 {
     background-color: #0d47a1;
     color: white;
     font-family: Oswald;
-    font-size: 50px; }
+    font-size: 60px; }
     .nav-sm .dropdown button:focus {
       color: white !important;
       font-weight: bold;
