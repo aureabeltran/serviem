@@ -1,3 +1,6 @@
+body{
+	background-color: lighten($main-gray, 20%);
+}
 ul{
 	list-style: none;
 }
@@ -8,5 +11,8 @@ i{
 	margin: 5px;
 }
 img{
-	width: 100%;
+	max-width:100%;
+}
+h1{
+	font-family: Oswald;
 }
