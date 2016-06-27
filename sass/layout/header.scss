@@ -5,7 +5,7 @@
     border-left:1px solid black;
     ul {
         background: $main-blue;
-        padding: 60px 0px;
+        padding: 100px 0px;
         list-style-type: none;
         li{
             @include navbars($main-blue, 0%, 10px 30px, 1px solid black);
@@ -33,6 +33,7 @@
             li{
                 background-color: $main-blue;
                 a{
+                    font-size: 30px;
                     color: black;
                     font-weight: bold;
                     color: white;
@@ -45,7 +46,7 @@
             background-color: $main-blue;
             color: white;
             font-family: Oswald;
-            font-size: 50px;
+            font-size: 60px;
             &:focus{
                 color: white !important;
                 font-weight: bold;
