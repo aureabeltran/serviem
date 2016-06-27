@@ -15,3 +15,13 @@
 		background-color: darken($color-boton, 15%);
 	}
 }
+@mixin navbars($color-boton, $margin, $padding, $color-borde){
+	background-color: $color-boton;
+	margin: $margin;
+	padding: $padding;
+	border: $color-borde;
+	&:hover{
+		font-weight: bold;
+		background-color: darken($color-boton, 15%);
+	}
+}

@@ -5,17 +5,57 @@
 	<title>Serviem</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<header>
+		<div class="container-fluid">
+			<!--desde aqui hago el navegador-->
+			<nav class="menu nav-collapse" id="sidebar">
+				<ul>
+					<li><a href="">Inicio <i class="fa fa-desktop" aria-hidden="true"></i></a></li>
+					<li><a href="">Cercos Electricos <i class="fa fa-bolt" aria-hidden="true"></i></a></li>
+					<li><a href="">Automatizacion <i class="fa fa-tachometer" aria-hidden="true"></i></a></li>
+					<li><a href="">Camaras de Seguridad <i class="fa fa-video-camera" aria-hidden="true"></i></a></li>
+					<li><a href="">Citofonia <i class="fa fa-bell" aria-hidden="true"></i></a></li>
+					<li><a href="">Iluminacion Led <i class="fa fa-lightbulb-o" aria-hidden="true"></i></a></li>
+					<li><a href="">Elect. Industrial <i class="fa fa-industry" aria-hidden="true"></i></a></li>
+					<li><a href="">Elect. Domiciliaria <i class="fa fa-home" aria-hidden="true"></i></a></li>
+					<li><a href="">Instalaciones <i class="fa fa-gavel" aria-hidden="true"></i></a></li>
+					<li><a href="">Reparaciones <i class="fa fa-wrench" aria-hidden="true"></i></a></li>
+					<li><a href="">Mantenciones <i class="fa fa-cog" aria-hidden="true"></i></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="bxslider">
+						<li>
+							<img src="images/IMG-20160626-WA0008.jpg">
+							<img src="images/IMG-20160626-WA0009.jpg">
+							<img src="images/IMG-20160626-WA0006.jpg">
+							<img src="images/IMG-20160626-WA0007.jpg">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- jQuery library (served from Google) -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="/js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="/lib/jquery.bxslider.css" rel="stylesheet" /
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.10.2/validator.min.js"></script>
-	<script src="smoothscrolling/smoothscrolling.jquery.js"></script>
-  <script>
-  $(function() {
-    $(".menu a").smoothscrolling();
-  })
-  </script>
+	<script>
+		$(document).ready(function(){
+	  $('.bxslider').bxSlider();
+		});
+	</script>
 </body>
 </html>
