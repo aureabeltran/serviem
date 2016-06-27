@@ -65,6 +65,7 @@ h1 {
   .nav-sm .dropdown li {
     background-color: #0d47a1; }
     .nav-sm .dropdown li a {
+      font-size: 30px;
       color: black;
       font-weight: bold;
       color: white; }
