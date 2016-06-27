@@ -12,7 +12,7 @@ section .container .row .bxslider img {
   padding: 5%; }
 
 body {
-  background-color: #c4c4c4; }
+  background-color: #c4e3fc; }
 
 ul {
   list-style: none; }
@@ -35,17 +35,17 @@ h1 {
   right: 0%;
   border-left: 1px solid black; }
   .nav-md ul {
-    background: #242DCB;
+    background: #0d47a1;
     padding: 60px 0px;
     list-style-type: none; }
     .nav-md ul li {
-      background-color: #242DCB;
+      background-color: #0d47a1;
       margin: 0%;
       padding: 10px 30px;
       border: 1px solid black; }
       .nav-md ul li:hover {
         font-weight: bold;
-        background-color: #181f8a; }
+        background-color: #07285a; }
       .nav-md ul li a {
         font-family: Oswald;
         font-size: 17px;
@@ -63,7 +63,7 @@ h1 {
   z-index: 10000;
   border: 2px solid black; }
   .nav-sm .dropdown li {
-    background-color: #242DCB; }
+    background-color: #0d47a1; }
     .nav-sm .dropdown li a {
       color: black;
       font-weight: bold;
@@ -71,17 +71,17 @@ h1 {
       .nav-sm .dropdown li a:hover {
         color: black; }
   .nav-sm .dropdown button {
-    background-color: #242DCB;
+    background-color: #0d47a1;
     color: white;
     font-family: Oswald;
     font-size: 30px; }
     .nav-sm .dropdown button:focus {
       color: white !important;
       font-weight: bold;
-      background-color: #5a61e2 !important; }
+      background-color: #1366e8 !important; }
 
 footer {
-  background-color: #242DCB;
+  background-color: #0d47a1;
   color: white;
   border-top: 1px solid black; }
 
